@@ -14,10 +14,10 @@ param lmin := 0; %% Min level
 
 param q := 4; %% Input mass flow
 
-param Q default 1; Output mass flow
+param Q default 1; %% Output mass flow
 
 param K default 1; %% Bins Level coef.
 
 param p := 1; %% Initial position
 
-param I := 1 32 2 93 3 31 4 75 %% Initial level for each bin
+param I := 1 32 2 93 3 31 4 75; %% Initial level for each bin
